@@ -18,7 +18,22 @@ export default {
       backgroundImage: {
         'cyber-grid': 'linear-gradient(#0a0f16 2px, transparent 2px), linear-gradient(90deg, #0a0f16 2px, transparent 2px)',
       },
+      typography: (theme) => ({
+        invert: {
+          css: {
+            '--tw-prose-body': theme('colors.gray[300]'),
+            '--tw-prose-headings': theme('colors.cyber-neon'),
+            '--tw-prose-links': theme('colors.cyber-blue'),
+            '--tw-prose-bold': theme('colors.white'),
+            '--tw-prose-code': theme('colors.cyber-blue'),
+            '--tw-prose-quotes': theme('colors.gray[100]'),
+            '--tw-prose-pre-bg': theme('colors.terminal-black'),
+          },
+        },
+      }),
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }

@@ -42,9 +42,9 @@ const Sidebar = () => {
                 {Array.from({ length: getModuleCount() }, (_, i) => (
                   <Link
                     key={`${week}-${i+1}`}
-                    to={`/semaine${week}/module${i+1}`}
+                    to={`/cours/semaine${week}/module${i+1}`}
                     className={`block font-mono relative overflow-hidden group ${
-                      location.pathname === `/semaine${week}/module${i+1}`
+                      location.pathname === `/cours/semaine${week}/module${i+1}`
                         ? 'text-cyber-neon bg-cyber-blue/10'
                         : 'text-gray-400 hover:text-cyber-blue'
                     } p-2 rounded-md transition-all`}
@@ -53,7 +53,7 @@ const Sidebar = () => {
                       <span className="text-xs opacity-50">[{(i+1).toString().padStart(2, '0')}]</span>
                       <span>Module_{i+1}</span>
                     </div>
-                    {location.pathname === `/semaine${week}/module${i+1}` && (
+                    {location.pathname === `/cours/semaine${week}/module${i+1}` && (
                       <>
                         <div className="absolute bottom-0 left-0 h-0.5 w-full bg-cyber-neon animate-pulse"></div>
                         <div className="absolute right-2 top-1/2 -translate-y-1/2 text-xs text-cyber-neon">

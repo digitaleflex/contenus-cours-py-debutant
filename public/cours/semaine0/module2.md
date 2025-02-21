@@ -1,6 +1,7 @@
 ### Semaine 0 : Immersion dans la programmation en python
 
 ### **📘 Jour 2 : Variables, Types de Données & Opérations**  
+
 ✅ **Objectif** : Comprendre les variables et manipuler les données en Python.
 
 ---
@@ -8,6 +9,7 @@
 ## **🔹 1. Introduction aux Variables**  
 
 ### **📌 Qu'est-ce qu'une variable ?**  
+
 Une **variable** est un espace en mémoire qui stocke une valeur. Elle permet de manipuler des données dans un programme.
 
 💡 **Exemple :**
@@ -20,6 +22,7 @@ Ici :
 - `age` contient l’entier `25`.
 
 ### **📌 Règles de nommage des variables**
+
 ✔ Doit commencer par une lettre ou un underscore `_`  
 ✔ Peut contenir des lettres, des chiffres et `_`  
 ✔ Sensible à la casse (`age` ≠ `Age`)  
@@ -45,6 +48,7 @@ Python propose plusieurs types de données couramment utilisés :
 | Booléen (`bool`) | `True`, `False` |
 
 ### **📌 Vérifier le type d'une variable**  
+
 Utiliser `type()` pour afficher le type d'une variable :
 ```python
 x = 10
@@ -65,6 +69,7 @@ print(type(est_connecte))  # <class 'bool'>
 ## **🔹 3. Conversion entre types de données**  
 
 ### **📌 Changer le type d’une variable (Casting)**
+
 On peut convertir un type en un autre :
 ```python
 # Convertir un entier en chaîne
@@ -118,6 +123,7 @@ print(a ** b) # 1000 (10^3)
 ## **🔹 5. Opérations Logiques & Comparaisons**  
 
 ### **📌 Opérateurs de comparaison**
+
 Utilisés pour comparer des valeurs et renvoient `True` ou `False` :
 
 | Opérateur | Description | Exemple (`a = 5`, `b = 3`) |
@@ -130,6 +136,7 @@ Utilisés pour comparer des valeurs et renvoient `True` ou `False` :
 | `<=` | Inférieur ou égal à | `a <= b` → `False` |
 
 ### **📌 Opérateurs logiques**
+
 | Opérateur | Description | Exemple |
 |-----------|------------|---------|
 | `and` | Retourne `True` si **les deux** conditions sont vraies | `(5 > 3) and (10 > 5)` → `True` |
@@ -203,6 +210,7 @@ Le nombre est impair.
 ---
 
 ## **🔹 7. Résumé du Jour 2**  
+
 ✔ Une **variable** stocke une valeur (nombre, texte, booléen).  
 ✔ **Types de données** : `int`, `float`, `str`, `bool`.  
 ✔ **Opérations mathématiques** et **logiques**.  
