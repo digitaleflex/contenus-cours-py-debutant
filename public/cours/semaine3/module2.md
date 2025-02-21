@@ -1,3 +1,5 @@
+# Module 2 - Semaine 3
+
 Voici le contenu détaillé du **Module 2 : Scan et reconnaissance réseau**, conçu pour aider les débutants à bien assimiler les concepts à l'aide d'exemples clairs et d’explications détaillées.
 
 ---
@@ -165,6 +167,9 @@ Hôte: 192.168.1.2
 Dans ce module, vous avez appris à utiliser Python pour effectuer des scans réseau avancés en utilisant des outils comme **Nmap** et **Socket**. Vous avez également exploré des outils externes comme **Whois** et **Shodan** pour récupérer des informations précieuses sur des cibles. L’exercice vous a permis de créer un scanner complet pour identifier les services actifs et leurs versions sur un réseau donné, en générant un rapport détaillé.
 
 Avant de passer au module suivant, assurez-vous d’être à l’aise avec la mise en œuvre de ces outils et techniques.
+
+
+
 
 ### **Guide des notions à maîtriser avant de passer au module suivant : Scan et reconnaissance réseau**
 

@@ -1,4 +1,3 @@
-Voici le **Module 4 : Scripts d’Automatisation pour la Cybersécurité** de la semaine 1.  
 
 ---
 

@@ -1,3 +1,5 @@
+# Module 2 - Semaine 2
+Voici le contenu détaillé du **Module 2 : Automatisation des tâches en cybersécurité** :
 
 ---
 
@@ -146,3 +148,5 @@ L’automatisation permet d’effectuer des vérifications de sécurité réguli
 4. Optionnel : Exécutez le script régulièrement via `cron` (Linux) ou `Task Scheduler` (Windows).
 
 ---
+
+Si ce module est validé, nous pourrons passer à la rédaction du **Module 3**.

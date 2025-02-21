@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-scan {
+    animation: scan 2s linear infinite;
+  }
+  
+  .glitch-text {
+    text-shadow: 
+      0.05em 0 0 rgba(255, 0, 0, .75),
+      -0.025em -0.05em 0 rgba(0, 255, 0, .75),
+      0.025em 0.05em 0 rgba(0, 0, 255, .75);
+    animation: glitch 500ms infinite;
+  }
+}
+
+@keyframes scan {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 
+      0.05em 0 0 rgba(255, 0, 0, .75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, .75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, .75);
+  }
+  14% {
+    text-shadow: 
+      0.05em 0 0 rgba(255, 0, 0, .75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, .75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, .75);
+  }
+  15% {
+    text-shadow: 
+      -0.05em -0.025em 0 rgba(255, 0, 0, .75),
+      0.025em 0.025em 0 rgba(0, 255, 0, .75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, .75);
+  }
+}
+
+@layer components {
+  .terminal-window {
+    @apply bg-terminal-black border border-cyber-blue/20 rounded-lg;
+    box-shadow: 0 0 20px rgba(0, 255, 157, 0.1);
+  }
+
+  .code-block {
+    @apply relative bg-terminal-black/50 rounded-md p-4 font-mono text-sm;
+    border: 1px solid theme('colors.cyber-blue/20');
+  }
+
+  .neon-text {
+    @apply text-cyber-neon;
+    text-shadow: 0 0 5px theme('colors.cyber-neon/50');
+  }
+}
+
+/* Styles globaux */
+body {
+  background-color: theme('colors.terminal-black');
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(0, 255, 157, 0.1) 0%, transparent 100%),
+    linear-gradient(
+      rgba(16, 17, 22, 0.97) 2px,
+      transparent 2px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(16, 17, 22, 0.97) 2px,
+      transparent 2px
+    );
+  background-size: 100% 100%, 30px 30px, 30px 30px;
+  background-position: 0 0, 15px 15px, 15px 15px;
+  min-height: 100vh;
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: theme('colors.terminal-black');
+}
+
+::-webkit-scrollbar-thumb {
+  background: theme('colors.cyber-blue/30');
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: theme('colors.cyber-blue/50');
+}
+
+/* Animation de clignotement pour le curseur */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor::after {
+  content: '_';
+  animation: blink 1s step-end infinite;
+}
+
+/* Effet de survol sur les liens */
+.hover-glow {
+  transition: all 0.3s ease;
+}
+
+.hover-glow:hover {
+  text-shadow: 0 0 8px theme('colors.cyber-blue');
+  box-shadow: 0 0 15px theme('colors.cyber-blue/20');
+} 

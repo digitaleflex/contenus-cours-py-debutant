@@ -1,3 +1,6 @@
+# Module 1 - Semaine 2
+
+Voici la mise à jour du **Module 1** avec des explications plus simples et détaillées :
 
 ---
 
@@ -119,3 +122,5 @@ Les expressions régulières sont utiles pour extraire des informations spécifi
 4. Optionnel : Sauvegarder les erreurs extraites dans un nouveau fichier.
 
 ---
+
+Si cette version vous semble plus claire et adaptée aux débutants, nous pourrons passer au **Module 2** pour sa création de manière similaire.

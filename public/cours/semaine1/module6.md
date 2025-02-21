@@ -1,4 +1,3 @@
-
 ---
 
 ### **Exercices de Validation pour la Semaine 2**
@@ -166,3 +165,5 @@
     Écrivez un script qui scrute un répertoire pour vérifier la présence de fichiers malveillants en fonction de leurs extensions (par exemple : `.exe`, `.bat`, `.js`). Ce script doit générer un rapport d’analyse.  
 
 ---
+
+Ces exercices couvrent à la fois des notions théoriques et des situations pratiques de cybersécurité et sont conçus pour préparer l'apprenant à des défis réels.

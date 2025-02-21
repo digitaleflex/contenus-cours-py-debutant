@@ -1,3 +1,7 @@
+# Module 2 - Semaine 1
+
+Super ! Voici le **Module 2 : Structures de contrôle et fonctions** de la semaine 1.  
+
 ---
 
 # **🟢 Module 2 : Structures de contrôle et fonctions**  
@@ -145,4 +149,3 @@ analyser_fichier(nom_fichier)
 
 ---
 
-Es-tu prêt pour **le Module 3 : Modules et Bibliothèques pour la Sécurité** ? 🚀
