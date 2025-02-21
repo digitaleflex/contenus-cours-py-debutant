@@ -120,4 +120,29 @@ body {
 .hover-glow:hover {
   text-shadow: 0 0 8px theme('colors.cyber-blue');
   box-shadow: 0 0 15px theme('colors.cyber-blue/20');
+}
+
+/* Ajout de styles pour le layout principal */
+#root {
+  min-height: 100vh;
+  background-color: theme('colors.terminal-black');
+}
+
+/* Amélioration du scrolling */
+main {
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* Style pour le contenu principal */
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Correction du z-index pour le Sidebar */
+.sidebar {
+  z-index: 50;
 } 

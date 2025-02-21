@@ -167,11 +167,13 @@ Scapy permet de manipuler des paquets réseau de manière détaillée. Vous pouv
 ### 🎯 Exercice pratique : Développer un scanner de ports pour détecter les services actifs sur une machine cible
 
 **Objectif de l'exercice** :
+
 - Créer un scanner de ports simple à l’aide de la bibliothèque `socket` en Python.
 - Scanner les ports d'une machine distante pour détecter quels services sont ouverts et actifs.
 - À la fin de l’exercice, vous pourrez identifier les services actifs sur une machine cible et alerter l'utilisateur si des ports importants sont ouverts.
 
 **Indications** :
+
 1. Utilisez le module `socket` pour établir une connexion sur les ports spécifiés.
 2. Affichez les ports ouverts et identifiez le service (ex: HTTP, SSH, FTP).
 3. Optionnel : Utilisez la bibliothèque `argparse` pour ajouter des arguments de ligne de commande (par exemple, l’adresse IP de la cible et les ports à scanner).
