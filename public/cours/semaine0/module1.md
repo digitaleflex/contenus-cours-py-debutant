@@ -1,7 +1,7 @@
 ---
 
 # **📘 Jour 1 : Introduction & Installation**  
-✅ **Objectif** : Installer Python et comprendre l'environnement de travail.  
+✅ Objectif : Installer Python et comprendre l'environnement de travail.
 
 ---
 
